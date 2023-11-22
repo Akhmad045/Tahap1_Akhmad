@@ -28,6 +28,8 @@
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu3MouseClicked"/>
           </Events>
         </Menu>
+        <Menu class="javax.swing.JMenu" name="tes">
+        </Menu>
       </SubComponents>
     </Menu>
   </NonVisualComponents>
@@ -57,12 +59,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="utma" pref="490" max="32767" attributes="0"/>
+          <Component id="utma" pref="700" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="utma" pref="279" max="32767" attributes="0"/>
+          <Component id="utma" pref="479" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>

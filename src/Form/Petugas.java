@@ -304,8 +304,9 @@ public class Petugas extends javax.swing.JInternalFrame {
         String t = username.getText();
         String n = password.getText();
         String m = nama.getText();
+        String l = (String) level.getSelectedItem();
         
-        String sql = "update petugas set username='"+t+"',password='"+n+"',nama_petugas='"+m+"' where id_petugas="+kode;
+        String sql = "update petugas set username='"+t+"',password='"+n+"',nama_petugas='"+m+"', level='"+l+"' where id_petugas="+kode;
         // periksa jika data ditambahkan
         Koneksi k = new Koneksi();
         if(k.rubahdata(sql)){
@@ -324,7 +325,6 @@ public class Petugas extends javax.swing.JInternalFrame {
 
     private void tabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelMouseClicked
         // TODO add your handling code here:
-        
         int no = tabel.getSelectedRow();
         username.setText(tabel.getValueAt(no, 1).toString());
         password.setText(tabel.getValueAt(no, 2).toString());
